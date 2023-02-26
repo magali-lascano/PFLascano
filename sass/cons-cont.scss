@@ -1,0 +1,96 @@
+  /* SERVICIOS */
+#servicios {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-inline: 30px;
+    h1{
+        font-size: 38px;
+        margin-bottom: 40px;
+        font-family: 'Gloock', serif;
+        text-transform: capitalize;
+    }
+    h2{
+        font-family: var(--font3);
+        text-transform: uppercase;
+        background-color: $color1;
+        color: #cbcbdd ;
+    }
+    ul{
+        background-color: $color5;
+        border-radius: 10px;
+        ;
+    }
+    ul li{
+        list-style: none;
+    }
+}
+
+  /* CONSULTAS */
+#fondoimg {
+    background-image: url(../img/portada.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.consultas-contenido {
+    margin-top: 10px;
+    margin-inline: $padding;
+    h1{
+        font-family: var(--font1);
+        text-transform:initial;
+        text-align: center;
+    }
+    .consulta{
+        max-width: 7in;   
+    }
+}
+.pregfrec {
+    h3{
+        font-family: var(--font2);
+        padding-top: $padding;
+    }
+    ul li{
+    list-style: none;
+    padding: $padding;
+    background-color: $color5;
+    border-radius: 10px;
+    }
+    ul h4{
+        margin-top: 7px ;
+        padding-left: 15px;
+    }
+}
+
+#consultas {
+    height: 50vh;
+    width: auto;
+    margin-top: $padding;
+    border: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+  /* CONTACTO */
+.contacto-contenido {
+    margin-block: 30px;
+    margin-inline: 70px;
+    h2 {
+        font-family: 'Gloock', serif;
+        text-align: center;
+    }
+} 
+
+.btn {
+    margin-top: 30px;
+    background-color: $color1;
+    border: $color2 solid 0.5px;
+    &:hover{
+        background-color: $bg-color;
+        border: $color2 solid 0.5px;
+    }
+}
+
+.selector {
+    padding-top: 25px;
+}

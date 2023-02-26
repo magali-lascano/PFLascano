@@ -1,0 +1,21 @@
+  /* HEADER */
+nav {
+    background-color: #CFD2CF;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#collapsibleNavbar{
+    ul li a{
+    color: black;
+    font-weight: bolder;
+        &:hover{
+        color: #FAF8F1;
+        }
+    }
+}
+
+#logo img {
+    height: 70px;
+}

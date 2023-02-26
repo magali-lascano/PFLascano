@@ -1,0 +1,23 @@
+  /* PORTAFOLIO */
+#proyectos {
+    margin: 0;
+}
+
+.repositorio-git {
+    text-align: center;
+    margin-top: 20px;
+    h2 {
+    font-family: var(--font3);
+    }
+    p a {
+        font-family: var(--font3);
+        text-decoration: none;
+        color: #fff;
+        background-color: $bg-color;
+        border-radius: 5px;
+    }
+    p a:hover {
+    color: $color3;
+    background-color: $color1;
+    }
+}

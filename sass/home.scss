@@ -1,0 +1,53 @@
+/* HOME */
+.container-fluid {
+    width: 100%;
+}
+
+h1 {
+    padding-top: 50px;
+    font-family: 'Gloock', serif;
+    text-transform: capitalize;
+}
+
+#fsd{
+    font-weight: bold;
+}
+
+.ctrl{
+    margin: 24px;
+}
+
+.clickredes {
+    animation-duration: 3s;
+    animation-name: slidein;
+    span {
+    font-weight: bold;
+    }
+    a {
+        padding: 5px;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: var(--font2);
+        background-color: $bg-color;    
+        border-radius: 5px;
+        &:hover {
+        color: $color3;
+        background-color: $color1;
+        }
+    }
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+div article {
+    text-align: center;
+}
